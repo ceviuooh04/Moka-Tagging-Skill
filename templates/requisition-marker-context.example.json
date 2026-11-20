@@ -1,0 +1,202 @@
+{
+  "sources": [
+    {
+      "source_id": "WORK",
+      "kind": "requisition",
+      "system": "fictional source system",
+      "reference": "fictional actual-record location",
+      "captured_at": "2026-01-01T12:00:00+00:00",
+      "verified": false,
+      "verification_reference": "fictional reviewed source",
+      "segments": [
+        {
+          "locator": "segment-one",
+          "section": "work_content",
+          "text": "Review automated workflow runs, diagnose failure modes, and report outcomes."
+        },
+        {
+          "locator": "heading",
+          "section": "title",
+          "text": "Workflow Specialist"
+        }
+      ],
+      "record_id": "REQ-DEMO"
+    },
+    {
+      "source_id": "RECORD",
+      "kind": "moka_record",
+      "system": "fictional source system",
+      "reference": "fictional actual-record location",
+      "captured_at": "2026-01-01T12:00:00+00:00",
+      "verified": false,
+      "verification_reference": "fictional reviewed source",
+      "segments": [
+        {
+          "locator": "segment-one",
+          "section": "other",
+          "text": "JOB-DEMO REQ-DEMO APP-DEMO CAND-DEMO"
+        }
+      ]
+    },
+    {
+      "source_id": "USER",
+      "kind": "user_instruction",
+      "system": "fictional source system",
+      "reference": "fictional actual-record location",
+      "captured_at": "2026-01-01T12:00:00+00:00",
+      "verified": false,
+      "verification_reference": "fictional reviewed source",
+      "segments": [
+        {
+          "locator": "segment-one",
+          "section": "other",
+          "text": "Please add the requested manual marker for the specified job and candidates."
+        }
+      ]
+    },
+    {
+      "source_id": "LIBRARY",
+      "kind": "moka_tag_library",
+      "system": "fictional source system",
+      "reference": "fictional actual-record location",
+      "captured_at": "2026-01-01T12:00:00+00:00",
+      "verified": false,
+      "verification_reference": "fictional reviewed source",
+      "segments": [
+        {
+          "locator": "segment-one",
+          "section": "other",
+          "text": "TAG-DEMO Workflow Review Marker GROUP-MANUAL Manual Work Markers enabled."
+        }
+      ]
+    },
+    {
+      "source_id": "SNAP",
+      "kind": "moka_tag_snapshot",
+      "system": "fictional source system",
+      "reference": "fictional actual-record location",
+      "captured_at": "2026-01-01T12:00:00+00:00",
+      "verified": false,
+      "verification_reference": "fictional reviewed source",
+      "segments": [
+        {
+          "locator": "segment-one",
+          "section": "other",
+          "text": "CAND-DEMO APP-DEMO TAG-OLD Existing Item GROUP-OTHER Other Group"
+        }
+      ]
+    }
+  ],
+  "job_requisition_link": {
+    "job_id": "JOB-DEMO",
+    "requisition_id": "REQ-DEMO",
+    "citations": [
+      {
+        "source_id": "RECORD",
+        "locator": "segment-one",
+        "excerpt": "JOB-DEMO REQ-DEMO APP-DEMO CAND-DEMO"
+      }
+    ],
+    "verified": false,
+    "verification_reference": "fictional reviewed binding"
+  },
+  "application_link": {
+    "job_id": "JOB-DEMO",
+    "application_id": "APP-DEMO",
+    "candidate_id": "CAND-DEMO",
+    "citations": [
+      {
+        "source_id": "RECORD",
+        "locator": "segment-one",
+        "excerpt": "JOB-DEMO REQ-DEMO APP-DEMO CAND-DEMO"
+      }
+    ],
+    "verified": false,
+    "verification_reference": "fictional reviewed binding"
+  },
+  "edit_target_check": {
+    "type": "candidate",
+    "id": "CAND-DEMO",
+    "citations": [
+      {
+        "source_id": "RECORD",
+        "locator": "segment-one",
+        "excerpt": "JOB-DEMO REQ-DEMO APP-DEMO CAND-DEMO"
+      }
+    ],
+    "verified": false,
+    "verification_reference": "fictional reviewed binding"
+  },
+  "scope": {
+    "job_id": "JOB-DEMO",
+    "tag_id": "TAG-DEMO",
+    "action": "add",
+    "targets": [
+      {
+        "application_id": "APP-DEMO",
+        "candidate_id": "CAND-DEMO"
+      }
+    ],
+    "citations": [
+      {
+        "source_id": "USER",
+        "locator": "segment-one",
+        "excerpt": "Please add the requested manual marker for the specified job and candidates."
+      }
+    ],
+    "verified": false,
+    "verification_reference": "fictional reviewed binding"
+  },
+  "effects": {
+    "complete": false,
+    "verification_reference": "fictional sharing review",
+    "impacted_applications": [
+      {
+        "job_id": "JOB-DEMO",
+        "application_id": "APP-DEMO",
+        "candidate_id": "CAND-DEMO",
+        "citations": [
+          {
+            "source_id": "RECORD",
+            "locator": "segment-one",
+            "excerpt": "JOB-DEMO REQ-DEMO APP-DEMO CAND-DEMO"
+          }
+        ]
+      }
+    ]
+  },
+  "snapshot": {
+    "edit_target": {
+      "type": "candidate",
+      "id": "CAND-DEMO"
+    },
+    "complete": false,
+    "verification_reference": "fictional loaded all tags",
+    "citations": [
+      {
+        "source_id": "SNAP",
+        "locator": "segment-one",
+        "excerpt": "CAND-DEMO APP-DEMO TAG-OLD Existing Item GROUP-OTHER Other Group"
+      }
+    ],
+    "tags": [
+      {
+        "id": "TAG-OLD",
+        "name": "Existing Item",
+        "group_id": "GROUP-OTHER",
+        "group_name": "Other Group",
+        "citations": [
+          {
+            "source_id": "SNAP",
+            "locator": "segment-one",
+            "excerpt": "CAND-DEMO APP-DEMO TAG-OLD Existing Item GROUP-OTHER Other Group"
+          }
+        ]
+      }
+    ]
+  },
+  "conflict_review": {
+    "no_known_conflicts": false,
+    "verification_reference": "fictional review of known conflicts"
+  }
+}

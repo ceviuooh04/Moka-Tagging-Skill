@@ -1,0 +1,18 @@
+{
+  "taxonomy_version": "1.1",
+  "current_approved_version_verified": false,
+  "approval_reference": null,
+  "current_version_verification_reference": null,
+  "active_status_verified": false,
+  "active_status_verification_reference": null,
+  "moka_id_mapping_verified": false,
+  "moka_id_mapping_reference": null,
+  "tags": [
+    {
+      "tag_group": "language",
+      "tag_value": "english",
+      "status": "Unverified",
+      "moka_tag_id": null
+    }
+  ]
+}

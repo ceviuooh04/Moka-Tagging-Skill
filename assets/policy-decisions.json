@@ -1,0 +1,88 @@
+{
+  "scope": "本用户指定的 Global Talent Taxonomy 工作流；旧决议仅供历史追溯，本次新版为待审批上线草稿",
+  "decisions": [
+    {
+      "decision_id": "PROJECT_CATEGORY_SELECTION_2026_11_17",
+      "tag_group": "project category",
+      "selection_type": "multi",
+      "original_conflict": [
+        "Global Talent Taxonomy v1.0 section 1.2: Single-select by default",
+        "Global Talent Taxonomy v1.0 section 2.3: Multi-select"
+      ],
+      "source_type": "user_clarification",
+      "source_detail": "用户在被问及贵司实际批准的 Project Category 规则时，明确回答：允许多选。",
+      "confirmed_at": "2026-11-17T17:24:22+08:00",
+      "limitation": "此记录如实保存用户确认，不虚构其姓名、角色、签署人或独立审批文号；不证明 Moka 中当前版本、每个标签的 Active 状态或真实标签 ID。若后续获知现行正式规定不同，应暂停受影响操作并核实。"
+    },
+    {
+      "decision_id": "TAXONOMY_V11_REQUEST_2026_11_17",
+      "source_type": "user_request_and_assistant_design",
+      "confirmed_at": "2026-11-17T17:31:55+08:00",
+      "source_detail": "用户要求第六组 Rate 采用 Moka 五档；每个组增加 not included；精简 Project Category E–G；Project Category 多选。E–G 具体合并值和异常细则是按请求编制的 v1.1 草稿设计。",
+      "limitation": "不冒充组织 Owner/Admin 身份、批准、当前版本或 Moka 发布；具体草稿仍待正式审阅和标签库实施。"
+    },
+    {
+      "decision_id": "COUNTRY_ACTUAL_LOCATION_2026_11_17",
+      "tag_group": "country",
+      "selection_type": "single",
+      "source_type": "user_clarification",
+      "recorded_at": "2026-11-17T17:56:44+08:00",
+      "source_detail": "本次用户明确确认 Country 优先候选人实际所在地，并要求实际所在地作为唯一单选打标依据；不得因国籍或项目工作市场等推断，不能核实时留待核实。",
+      "limitation": "如实记录当时用户确认，不虚构用户姓名、Admin 身份、正式审批或发布；2026-11-20 用户进一步允许基于已有同向线索推断实际所在地，旧的禁止推断执行口径仅供历史追溯。",
+      "status": "historical_inference_rule_superseded_2026_11_20",
+      "superseded_by": "COUNTRY_EVIDENCE_BASED_INFERENCE_2026_11_20"
+    },
+    {
+      "decision_id": "TIER_CANDIDATE_HIGHEST_VALID_COMPLETED_2026_11_17",
+      "tag_group": "tier",
+      "selection_type": "single",
+      "source_type": "user_clarification",
+      "recorded_at": "2026-11-17T17:56:44+08:00",
+      "source_detail": "本次用户明确确认 Tier 是候选人档案单选，多个项目有不同 Tier 时取所有有效已完成评估中的最高等级；较新项目较低不能覆盖更高等级。项目仍须按具体工作评估并保留证据，需可信身份及权限。",
+      "limitation": "如实记录本次用户确认，不虚构用户姓名、Admin 身份、正式审批或发布；不证明项目覆盖、候选人身份、评估有效性、当前批准版本、Moka 标签 ID 或现有标签写权限。具体实施需核实完整项目和同人共享关系，并遵守适用确认及授权；不能核实则待审核。 此历史规则不再用于本次修订的执行；新口径尚须核实现行审批及上线，不把本记录当作其批准。",
+      "historical_label_scope_not_for_execution": "candidate_profile",
+      "historical_rollup_not_for_execution": "所有有效已完成项目评估的最高等级：tier 1 > tier 2 > tier 3 > tier 4",
+      "status": "historical_only_superseded_for_skill_sync_not_evidence_of_organizational_approval",
+      "execution_use": "prohibited_under_revised_draft_pending_current_approval_and_deployment_verification"
+    },
+    {
+      "decision_id": "HISTORICAL_V11_APPROVAL_CONFIRMATION_2026_11_18",
+      "source_type": "historical_user_confirmation_recorded_in_skill",
+      "recorded_date": "2026-11-18",
+      "source_detail": "用户曾确认当时旧版 v1.1 已正式批准。",
+      "status": "historical_only",
+      "limitation": "不虚构审批人或文号；不能证明 2026-11-19 新修订已获 Admin 批准、生效或发布到 Moka。"
+    },
+    {
+      "decision_id": "PROJECT_INDEPENDENT_TIER_RATE_LANGUAGE_DRAFT_REVISION_2026_11_19",
+      "source_type": "user_request_and_revised_reading_document",
+      "source_document": "assets/source/Global_Talent_Taxonomy_v1.1.docx",
+      "source_sha256": "6c476036a29a14ea72f61d6e336050859ae33950f5b12ad4fcda3592c456732a",
+      "recorded_date": "2026-11-19",
+      "tier": "每项评估独立关联项目、Target Profile 和证据；不同项目可有不同 Tier，不跨项目取最高或自动覆盖，并保留历史；不禁止 Candidate Profile Tier 字段。",
+      "rate": "仅适用 ATS Talent Pool，不属于 Benchmark Tag。",
+      "language": {
+        "canonical": "persian",
+        "alias": "farsi",
+        "historical_values": "未经另行批准不自动迁移或删除"
+      },
+      "status": "draft_pending_admin_approval_and_moka_publication",
+      "limitation": "同步技能不是批准或上线；须核实本次修订当前审批与上线状态。若不能验证项目独立存储、其他项目及历史不被覆盖，阻断 Tier 写入；不假定系统支持或臆造字段。"
+    },
+    {
+      "decision_id": "COUNTRY_EVIDENCE_BASED_INFERENCE_2026_11_20",
+      "source_type": "user_clarification",
+      "recorded_at": "2026-11-20T11:35:53+08:00",
+      "source_detail": "Country 仍以候选人当前所在地为目标；用户明确表示，像美国电话号码、美国求学经历及美国岗位申请等已有信息结合足以建议美国标签，无需再单独确认。综合已有线索，区分推断与直接证明，信息不足或冲突时不硬猜。",
+      "supersedes_inference_restriction_of": "COUNTRY_ACTUAL_LOCATION_2026_11_17",
+      "limitation": "用户确认是工作判断口径，不证明 Admin 批准、Moka 上线、当前实际居住事实或写权限。适用正式政策冲突时暂停相关写入；不将旧记录的相反要求继续作为现行用户口径。"
+    },
+    {
+      "decision_id": "TIER_PROVISIONAL_FROM_RESUME_2026_11_20",
+      "source_type": "user_clarification",
+      "recorded_at": "2026-11-20T11:36:49+08:00",
+      "source_detail": "没有 Note 时也应根据 Taxonomy 标准、候选人简历及目标项目工作尝试判断可能的 Tier，提供有证据的初步建议、理由与缺口，不因无 Note 或无批准的项目细分 rubric 自动留空。",
+      "limitation": "初步建议不是正式评估或写入授权；不允许凭缺失证据硬猜，不跨项目聚合或覆盖。项目独立存储、适用批准规则和校验门控未经核验时，仍阻断 Tier 写入。"
+    }
+  ]
+}

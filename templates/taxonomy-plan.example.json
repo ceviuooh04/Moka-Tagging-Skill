@@ -1,0 +1,32 @@
+{
+  "candidate": {
+    "moka_id": "DEMO-RECORD",
+    "match_status": "unverified"
+  },
+  "taxonomy_version": "1.1",
+  "target_project_id": null,
+  "tier_assessment": {
+    "status": "not_assessed",
+    "value": null,
+    "rubric_version": null,
+    "dimension_evidence": {}
+  },
+  "changes": [
+    {
+      "system": "moka",
+      "record_id": "DEMO-RECORD",
+      "field": "candidate_custom_tags",
+      "operation": "add",
+      "tag_group": "language",
+      "tag_value": "english",
+      "remote_tag_id": null,
+      "evidence": [
+        {
+          "source_id": "DEMO-SOURCE",
+          "locator": "DEMO-PARAGRAPH",
+          "excerpt": "DEMO-FICTIONAL-EVIDENCE"
+        }
+      ]
+    }
+  ]
+}

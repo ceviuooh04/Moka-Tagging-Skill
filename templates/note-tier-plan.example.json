@@ -1,0 +1,30 @@
+{
+  "_notice": "LEGACY FICTIONAL EXAMPLE ONLY: all Tier plans are blocked because actual project/Target Profile association and isolated Moka storage are not verified. Do not use this template to write.",
+  "candidate": {
+    "moka_id": "PROFILE-DEMO",
+    "application_ids": [
+      "APP-DEMO"
+    ]
+  },
+  "taxonomy_version": "1.1",
+  "changes": [
+    {
+      "system": "moka",
+      "record_id": "PROFILE-DEMO",
+      "field": "candidate_custom_tags",
+      "operation": "add",
+      "tag_group": "tier",
+      "tag_value": "tier 2",
+      "remote_tag_id": "TIER-ID-2",
+      "remote_group_id": "GROUP-TIER"
+    }
+  ],
+  "note_citations": [
+    {
+      "source_id": "NOTE-1",
+      "locator": "fictional-NOTE-1",
+      "excerpt": "Tier 2\n8+ years of software engineering"
+    }
+  ],
+  "other_tier_citations": []
+}

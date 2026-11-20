@@ -1,0 +1,18 @@
+{
+  "candidate": {"moka_id": "DEMO-RECORD", "match_status": "unverified"},
+  "taxonomy_version": "1.1",
+  "target_project_id": null,
+  "changes": [
+    {
+      "system": "moka",
+      "record_id": "DEMO-RECORD",
+      "field": "candidate_custom_tags",
+      "operation": "add",
+      "tag_group": "language",
+      "tag_value": "language not included",
+      "remote_tag_id": null,
+      "exception_assessment": {"known_value": "DEMO-UNMAPPED-LANGUAGE", "no_matching_tag_verified": false, "comparison_reference": null},
+      "evidence": [{"source_id": "DEMO-SOURCE", "locator": "DEMO-PARAGRAPH", "excerpt": "DEMO-UNMAPPED-LANGUAGE"}]
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "_notice": "LEGACY FICTIONAL EXAMPLE ONLY: these assertions do not prove real project/Target Profile association, project-specific evidence, or isolated Moka Tier storage. The legacy gate always blocks.",
+  "moka_host": "demo.invalid",
+  "candidate": {
+    "moka_id": "PROFILE-DEMO",
+    "application_ids": [
+      "APP-DEMO"
+    ]
+  },
+  "allowed_profile_ids": [
+    "PROFILE-DEMO"
+  ],
+  "allowed_application_ids": [
+    "APP-DEMO"
+  ],
+  "allowed_fields": [
+    "candidate_custom_tags"
+  ],
+  "allowed_operations": [
+    "add"
+  ],
+  "identity_links": [
+    {
+      "application_id": "APP-DEMO",
+      "candidate_moka_id": "PROFILE-DEMO",
+      "verified": true,
+      "verification_reference": "fictional observed application-profile link",
+      "evidence": {
+        "source_id": "LINK-1",
+        "locator": "fictional-LINK-1",
+        "excerpt": "Moka application APP-DEMO belongs to candidate profile PROFILE-DEMO."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "NOTE-1",
+      "kind": "note",
+      "system": "moka",
+      "captured_at": "2026-01-01T10:00:00Z",
+      "source_verified": false,
+      "source_verification_reference": "fictional captured source NOTE-1",
+      "segments": [
+        {
+          "locator": "fictional-NOTE-1",
+          "text": "Tier 2\n8+ years of software engineering"
+        }
+      ],
+      "record_type": "application",
+      "record_id": "APP-DEMO",
+      "url": "https://demo.invalid/source/NOTE-1",
+      "author": "Fictional Reviewer",
+      "raw_note_complete_verified": true,
+      "raw_note_complete_verification_reference": "fictional complete note NOTE-1",
+      "result_verified": true,
+      "result_verification_reference": "fictional completed candidate result NOTE-1"
+    },
+    {
+      "source_id": "LINK-1",
+      "kind": "identity",
+      "system": "moka",
+      "captured_at": "2026-01-01T10:00:00Z",
+      "source_verified": false,
+      "source_verification_reference": "fictional captured source LINK-1",
+      "segments": [
+        {
+          "locator": "fictional-LINK-1",
+          "text": "Moka application APP-DEMO belongs to candidate profile PROFILE-DEMO."
+        }
+      ],
+      "record_type": "application",
+      "record_id": "APP-DEMO",
+      "url": "https://demo.invalid/source/LINK-1"
+    },
+    {
+      "source_id": "TAGS-1",
+      "kind": "tag_snapshot",
+      "system": "moka",
+      "captured_at": "2026-01-01T10:00:00Z",
+      "source_verified": false,
+      "source_verification_reference": "fictional captured source TAGS-1",
+      "segments": [
+        {
+          "locator": "fictional-TAGS-1",
+          "text": "Project Marker Demo\nFictional Language\nDemo Rate Band\nDemo Specialty"
+        }
+      ],
+      "record_type": "candidate_profile",
+      "record_id": "PROFILE-DEMO",
+      "url": "https://demo.invalid/source/TAGS-1"
+    },
+    {
+      "source_id": "USER-1",
+      "kind": "user",
+      "system": "user",
+      "captured_at": "2026-01-01T10:00:00Z",
+      "source_verified": false,
+      "source_verification_reference": "fictional captured source USER-1",
+      "segments": [
+        {
+          "locator": "fictional-USER-1",
+          "text": "我授权依据 Note 为所指定候选人档案添加 Tier 标签，核验后执行。"
+        }
+      ]
+    }
+  ],
+  "current_tags": {
+    "moka": [
+      {
+        "tag_group": "manual_project_marker",
+        "tag_value": "Project Marker Demo",
+        "remote_tag_id": "TAG-PROJECT",
+        "remote_group_id": "GROUP-PROJECT"
+      },
+      {
+        "tag_group": "manual_language",
+        "tag_value": "Fictional Language",
+        "remote_tag_id": "TAG-LANGUAGE",
+        "remote_group_id": "GROUP-LANGUAGE"
+      },
+      {
+        "tag_group": "rate",
+        "tag_value": "Demo Rate Band",
+        "remote_tag_id": "TAG-RATE",
+        "remote_group_id": "GROUP-RATE"
+      },
+      {
+        "tag_group": "customer_specialty",
+        "tag_value": "Demo Specialty",
+        "remote_tag_id": "TAG-SPECIAL",
+        "remote_group_id": "GROUP-SPECIAL"
+      }
+    ]
+  },
+  "current_tags_evidence": {
+    "source_id": "TAGS-1",
+    "locator": "fictional-TAGS-1",
+    "excerpt": "Project Marker Demo\nFictional Language\nDemo Rate Band\nDemo Specialty"
+  },
+  "tag_group_registry": [
+    {
+      "tag_group": "tier",
+      "moka_group_name": "Tier",
+      "remote_group_id": "GROUP-TIER",
+      "system": "moka",
+      "role": "tier",
+      "group_verified": true,
+      "group_verification_reference": "fictional registry GROUP-TIER"
+    },
+    {
+      "tag_group": "manual_project_marker",
+      "moka_group_name": "手动项目标签",
+      "remote_group_id": "GROUP-PROJECT",
+      "system": "moka",
+      "role": "other",
+      "group_verified": true,
+      "group_verification_reference": "fictional registry GROUP-PROJECT"
+    },
+    {
+      "tag_group": "manual_language",
+      "moka_group_name": "手动语言标签",
+      "remote_group_id": "GROUP-LANGUAGE",
+      "system": "moka",
+      "role": "other",
+      "group_verified": true,
+      "group_verification_reference": "fictional registry GROUP-LANGUAGE"
+    },
+    {
+      "tag_group": "rate",
+      "moka_group_name": "Rate 标签",
+      "remote_group_id": "GROUP-RATE",
+      "system": "moka",
+      "role": "other",
+      "group_verified": true,
+      "group_verification_reference": "fictional registry GROUP-RATE"
+    },
+    {
+      "tag_group": "customer_specialty",
+      "moka_group_name": "Actual Demo Group",
+      "remote_group_id": "GROUP-SPECIAL",
+      "system": "moka",
+      "role": "other",
+      "group_verified": true,
+      "group_verification_reference": "fictional registry GROUP-SPECIAL"
+    }
+  ],
+  "unresolved_revision_conflicts": [],
+  "safety_plan": {
+    "preconditions": [
+      "recheck_identity_and_target",
+      "recheck_visible_notes_and_known_tier_evidence",
+      "recheck_complete_current_tags_and_groups",
+      "recheck_approved_active_library_and_mapping",
+      "recheck_permission_and_user_scope"
+    ],
+    "postconditions": [
+      "reread_candidate_profile_tier",
+      "verify_all_previous_non_tier_tags_preserved"
+    ],
+    "on_failure": "stop_reread_escalate_no_unapproved_changes"
+  },
+  "user_authorization": {
+    "instruction": {
+      "source_id": "USER-1",
+      "locator": "fictional-USER-1",
+      "excerpt": "我授权依据 Note 为所指定候选人档案添加 Tier 标签，核验后执行。"
+    },
+    "scope_text": "所指定候选人档案",
+    "scope_verified": false,
+    "scope_verification_reference": "fictional authorized target scope",
+    "scope": {
+      "candidate_moka_id": "PROFILE-DEMO",
+      "application_ids": [
+        "APP-DEMO"
+      ],
+      "taxonomy_version": "1.1",
+      "change": {
+        "system": "moka",
+        "record_id": "PROFILE-DEMO",
+        "field": "candidate_custom_tags",
+        "operation": "add",
+        "tag_group": "tier",
+        "tag_value": "tier 2",
+        "remote_tag_id": "TIER-ID-2",
+        "remote_group_id": "GROUP-TIER"
+      }
+    }
+  },
+  "current_tags_verified": true,
+  "current_tags_verification_reference": "fictional verification current_tags",
+  "current_tag_groups_verified": true,
+  "current_tag_groups_verification_reference": "fictional verification current_tag_groups",
+  "tier_single_select_verified": true,
+  "tier_single_select_verification_reference": "fictional verification tier_single_select",
+  "write_permission_verified": false,
+  "write_permission_verification_reference": "fictional verification write_permission",
+  "visible_notes_complete_verified": false,
+  "visible_notes_complete_verification_reference": "fictional verification visible_notes_complete",
+  "known_other_tier_evidence_complete_verified": false,
+  "known_other_tier_evidence_complete_verification_reference": "fictional verification known_other_tier_evidence_complete",
+  "revision_conflicts_checked_verified": true,
+  "revision_conflicts_checked_verification_reference": "fictional verification revision_conflicts_checked"
+}

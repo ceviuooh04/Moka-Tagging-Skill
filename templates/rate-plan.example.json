@@ -1,0 +1,28 @@
+{
+  "candidate": {
+    "moka_id": "DEMO-APPLICATION",
+    "name": "DEMO PERSON",
+    "match_status": "unverified"
+  },
+  "taxonomy_version": "1.1",
+  "expected_rate": "80",
+  "rate_label": "Expected hourly rate in USD",
+  "evidence": [
+    {
+      "source_id": "DEMO-SOURCE",
+      "locator": "profile-rate",
+      "excerpt": "80"
+    }
+  ],
+  "changes": [
+    {
+      "system": "moka",
+      "record_id": "DEMO-APPLICATION",
+      "field": "candidate_custom_tags",
+      "operation": "add",
+      "tag_group": "rate",
+      "tag_value": "60 USD < Expected Rate ≤ 100 USD",
+      "remote_tag_id": null
+    }
+  ]
+}

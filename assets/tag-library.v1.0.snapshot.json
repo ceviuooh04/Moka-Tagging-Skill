@@ -1,0 +1,5760 @@
+{
+  "snapshot_version": "0.2",
+  "taxonomy_version": "1.0",
+  "management_spec_version": "1.0",
+  "basis": "uploaded_policy_documents",
+  "current_approved_version_verified": false,
+  "active_status_verified": false,
+  "moka_id_mapping_verified": false,
+  "source_documents": [
+    {
+      "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+      "sha256": "ec17ba5f9cbfe70c58a721c68f0b5b397e7ec989f20e43f105a89f8365d350f1"
+    },
+    {
+      "file": "GlobalTalentTagManagementSpecificationv1.0.docx",
+      "sha256": "e661ffe97fbc43a25ede8c6dd7a9bf645ee610a9dfe532577c1ea85b6c0b8ec6"
+    }
+  ],
+  "tag_groups": {
+    "country": {
+      "selection_type": "single",
+      "requirement": "required",
+      "unresolved_issue_ids": [
+        "ACTIVE_AND_CURRENT_UNKNOWN",
+        "MOKA_IDS_MISSING"
+      ]
+    },
+    "language": {
+      "selection_type": "multi",
+      "requirement": "required",
+      "unresolved_issue_ids": [
+        "LANGUAGE_DUPLICATE_VALUES",
+        "LANGUAGE_POSSIBLE_EQUIVALENCE",
+        "ACTIVE_AND_CURRENT_UNKNOWN",
+        "MOKA_IDS_MISSING"
+      ]
+    },
+    "project category": {
+      "selection_type": null,
+      "requirement": "required",
+      "unresolved_issue_ids": [
+        "PC_SELECTION_CONFLICT",
+        "CROSS_GROUP_SAME_VALUE",
+        "ACTIVE_AND_CURRENT_UNKNOWN",
+        "MOKA_IDS_MISSING"
+      ]
+    },
+    "knowledge domain": {
+      "selection_type": "multi",
+      "requirement": "optional",
+      "unresolved_issue_ids": [
+        "CROSS_GROUP_SAME_VALUE",
+        "ACTIVE_AND_CURRENT_UNKNOWN",
+        "MOKA_IDS_MISSING"
+      ]
+    },
+    "tier": {
+      "selection_type": "single",
+      "requirement": "conditional",
+      "unresolved_issue_ids": [
+        "ACTIVE_AND_CURRENT_UNKNOWN",
+        "MOKA_IDS_MISSING"
+      ]
+    }
+  },
+  "tags": [
+    {
+      "tag_group": "country",
+      "tag_value": "afghanistan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:201"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "australia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:202"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "bangladesh",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:203"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "bhutan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:204"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "brunei",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:205"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "cambodia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:206"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "china",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:207"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "fiji",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:208"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "hong kong",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:209"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "india",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:210"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "indonesia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:211"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "japan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:212"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "kazakhstan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:213"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "kiribati",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:214"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "kyrgyzstan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:215"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "laos",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:216"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "macau",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:217"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "malaysia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:218"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "maldives",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:219"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "marshall islands",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:220"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "micronesia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:221"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "mongolia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:222"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "myanmar",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:223"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "nauru",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:224"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "nepal",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:225"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "new zealand",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:226"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "north korea",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:227"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "pakistan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:228"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "palau",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:229"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "papua new guinea",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:230"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "philippines",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:231"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "samoa",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:232"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "singapore",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:233"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "solomon islands",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:234"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "south korea",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:235"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "sri lanka",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:236"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "taiwan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:237"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "tajikistan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:238"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "thailand",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:239"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "timor-leste",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:240"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "tonga",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:241"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "turkmenistan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:242"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "tuvalu",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:243"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "uzbekistan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:244"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "vanuatu",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:245"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "vietnam",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:246"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "albania",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:248"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "andorra",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:249"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "armenia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:250"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "austria",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:251"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "azerbaijan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:252"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "belarus",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:253"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "belgium",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:254"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "bosnia and herzegovina",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:255"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "bulgaria",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:256"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "croatia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:257"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "cyprus",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:258"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "czechia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:259"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "denmark",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:260"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "estonia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:261"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "finland",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:262"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "france",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:263"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "georgia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:264"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "germany",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:265"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "greece",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:266"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "hungary",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:267"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "iceland",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:268"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "ireland",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:269"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "italy",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:270"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "kosovo",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:271"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "latvia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:272"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "liechtenstein",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:273"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "lithuania",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:274"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "luxembourg",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:275"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "malta",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:276"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "moldova",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:277"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "monaco",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:278"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "montenegro",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:279"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "netherlands",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:280"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "north macedonia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:281"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "norway",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:282"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "poland",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:283"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "portugal",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:284"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "romania",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:285"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "russia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:286"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "san marino",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:287"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "serbia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:288"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "slovakia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:289"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "slovenia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:290"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "spain",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:291"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "sweden",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:292"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "switzerland",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:293"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "ukraine",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:294"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "united kingdom",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:295"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "vatican city",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:296"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "bahrain",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:298"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "iran",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:299"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "iraq",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:300"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "israel",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:301"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "jordan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:302"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "kuwait",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:303"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "lebanon",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:304"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "oman",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:305"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "palestine",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:306"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "qatar",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:307"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "saudi arabia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:308"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "syria",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:309"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "turkey",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:310"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "united arab emirates",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:311"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "yemen",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:312"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "algeria",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:314"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "angola",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:315"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "benin",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:316"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "botswana",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:317"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "burkina faso",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:318"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "burundi",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:319"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "cabo verde",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:320"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "cameroon",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:321"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "central african republic",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:322"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "chad",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:323"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "comoros",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:324"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "democratic republic of the congo",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:325"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "republic of the congo",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:326"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "cote d'ivoire",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:327"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "djibouti",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:328"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "egypt",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:329"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "equatorial guinea",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:330"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "eritrea",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:331"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "eswatini",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:332"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "ethiopia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:333"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "gabon",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:334"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "gambia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:335"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "ghana",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:336"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "guinea",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:337"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "guinea-bissau",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:338"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "kenya",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:339"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "lesotho",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:340"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "liberia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:341"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "libya",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:342"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "madagascar",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:343"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "malawi",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:344"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "mali",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:345"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "mauritania",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:346"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "mauritius",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:347"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "morocco",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:348"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "mozambique",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:349"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "namibia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:350"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "niger",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:351"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "nigeria",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:352"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "rwanda",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:353"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "sao tome and principe",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:354"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "senegal",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:355"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "seychelles",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:356"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "sierra leone",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:357"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "somalia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:358"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "south africa",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:359"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "south sudan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:360"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "sudan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:361"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "tanzania",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:362"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "togo",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:363"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "tunisia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:364"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "uganda",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:365"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "zambia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:366"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "zimbabwe",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:367"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "antigua and barbuda",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:369"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "bahamas",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:370"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "barbados",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:371"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "belize",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:372"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "canada",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:373"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "costa rica",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:374"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "cuba",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:375"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "dominica",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:376"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "dominican republic",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:377"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "el salvador",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:378"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "grenada",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:379"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "guatemala",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:380"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "haiti",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:381"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "honduras",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:382"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "jamaica",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:383"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "mexico",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:384"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "nicaragua",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:385"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "panama",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:386"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "saint kitts and nevis",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:387"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "saint lucia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:388"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "saint vincent and the grenadines",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:389"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "trinidad and tobago",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:390"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "united states",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:391"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "argentina",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:393"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "bolivia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:394"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "brazil",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:395"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "chile",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:396"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "colombia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:397"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "ecuador",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:398"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "guyana",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:399"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "paraguay",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:400"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "peru",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:401"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "suriname",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:402"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "uruguay",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:403"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "venezuela",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:404"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "american samoa",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:406"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "anguilla",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:407"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "aruba",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:408"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "bermuda",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:409"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "british virgin islands",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:410"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "cayman islands",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:411"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "curacao",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:412"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "faroe islands",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:413"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "french guiana",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:414"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "french polynesia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:415"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "gibraltar",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:416"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "greenland",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:417"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "guadeloupe",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:418"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "guam",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:419"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "jersey",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:420"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "isle of man",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:421"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "martinique",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:422"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "mayotte",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:423"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "montserrat",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:424"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "new caledonia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:425"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "puerto rico",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:426"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "reunion",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:427"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "sint maarten",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:428"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "turks and caicos islands",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:429"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "u.s. virgin islands",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:430"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "afrikaans",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:437"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "albanian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:438"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "arabic",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:439"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "armenian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:440"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "azerbaijani",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:441"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "bengali",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:442"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "bosnian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:443"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "bulgarian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:444"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "burmese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:445"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "cantonese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:446"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "chinese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:447"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "croatian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:448"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "czech",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:449"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "danish",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:450"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "dutch",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:451"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "english",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:452"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "estonian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:453"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "farsi",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:454"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "finnish",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:455"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "french",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:456"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "georgian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:457"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "german",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:458"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "greek",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:459"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "gujarati",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:460"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "hebrew",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:461"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "hindi",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:462"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "hungarian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:463"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "icelandic",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:464"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "indonesian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:465"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "irish",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:466"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "italian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:467"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "japanese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:468"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "kannada",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:469"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "kazakh",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:470"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "khmer",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:471"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "korean",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:472"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "kyrgyz",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:473"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "lao",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:474"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "latvian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:475"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "lithuanian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:476"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "malay",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:477"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "malayalam",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:478"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "mandarin",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:479"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "marathi",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:480"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "mongolian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:481"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "nepali",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:482"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "norwegian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:483"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "pashto",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:484"
+        },
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:561"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "persian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:485"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "polish",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:486"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "portuguese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:487"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "punjabi",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:488"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "romanian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:489"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "russian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:490"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "serbian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:491"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "sinhala",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:492"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "slovak",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:493"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "slovenian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:494"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "somali",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:495"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "spanish",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:496"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "swahili",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:497"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "swedish",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:498"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "tagalog",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:499"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "tajik",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:500"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "tamil",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:501"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "telugu",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:502"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "thai",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:503"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "tibetan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:504"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "turkish",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:505"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "turkmen",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:506"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "ukrainian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:507"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "urdu",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:508"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "uzbek",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:509"
+        },
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:562"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "vietnamese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:510"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "basque",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:512"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "belarusian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:513"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "catalan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:514"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "corsican",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:515"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "galician",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:516"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "luxembourgish",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:517"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "macedonian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:518"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "maltese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:519"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "occitan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:520"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "scottish gaelic",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:521"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "welsh",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:522"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "assamese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:524"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "bhojpuri",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:525"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "dhivehi",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:526"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "dogri",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:527"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "konkani",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:528"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "maithili",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:529"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "manipuri",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:530"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "santali",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:531"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "sindhi",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:532"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "cebuano",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:534"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "hiligaynon",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:535"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "ilocano",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:536"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "javanese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:537"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "madurese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:538"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "sundanese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:539"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "akan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:541"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "amharic",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:542"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "bambara",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:543"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "berber",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:544"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "hausa",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:545"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "igbo",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:546"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "kinyarwanda",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:547"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "lingala",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:548"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "luganda",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:549"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "oromo",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:550"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "shona",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:551"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "tigrinya",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:552"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "tswana",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:553"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "wolof",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:554"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "xhosa",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:555"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "yoruba",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:556"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "zulu",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:557"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "kurdish",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:559"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "sorani",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:560"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "dari",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:563"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "haitian creole",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:565"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "jamaican patois",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:566"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "maori",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:567"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "quechua",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:568"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "guarani",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:569"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "greenlandic",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:570"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "samoan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:571"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "tongan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:572"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "fijian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:573"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "image annotation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:66"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "video annotation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:67"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "audio annotation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:68"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "music annotation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:69"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "text annotation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:70"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "image moderation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:72"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "video moderation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:73"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "text moderation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:74"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "e-commerce moderation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:75"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "audio data collection",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:78"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "speech data collection",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:79"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "speech recognition (asr)",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:82"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "speech synthesis (tts)",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:83"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "llm response evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:86"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "llm reasoning evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:87"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "llm knowledge evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:88"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "llm instruction following evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:89"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "llm factuality evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:90"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "llm safety evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:91"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "llm coding evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:92"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "llm preference evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:93"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "agent task completion evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:95"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "agent planning evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:96"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "agent reasoning evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:97"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "agent tool use evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:98"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "agent browser interaction evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:99"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "agent computer use evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:100"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "agent workflow evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:101"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "agent trajectory evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:102"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "prompt writing",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:104"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "prompt engineering",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:105"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "ai training",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:106"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "model fine-tuning",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:107"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "agent training",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:108"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "customer service",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:110"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "3d modeling",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:113"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "egocentric video collection",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:114"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "robotic data collection",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:115"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "location based service",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:119"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "medical & healthcare",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:126"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "finance & accounting",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:127"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "law",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:128"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "engineering",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:129"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "business & management",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:130"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "coding",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:132"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "code generation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:133"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "code review",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:134"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "code debugging",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:135"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "large language models",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:137"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "model fine-tuning",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:138"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "rag development",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:139"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "ai agent development",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:140"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "mathematics",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:142"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "physics",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:143"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "biology",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:144"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "chemistry",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:145"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "linguistics",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:147"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "translation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:148"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "grammar",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:149"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "localization",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:150"
+        }
+      ]
+    },
+    {
+      "tag_group": "tier",
+      "tag_value": "tier 1",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx table:3,row:2"
+        }
+      ],
+      "general_level": "Senior Expert / Exception",
+      "description": "Exceptional expertise; capable of designing methodologies, making high-risk professional judgments and handling complex final adjudication"
+    },
+    {
+      "tag_group": "tier",
+      "tag_value": "tier 2",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx table:3,row:3"
+        }
+      ],
+      "general_level": "Expert",
+      "description": "Strong professional expertise; capable of handling complex tasks, difficult cases, error attribution and expert-level QA"
+    },
+    {
+      "tag_group": "tier",
+      "tag_value": "tier 3",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx table:3,row:4"
+        }
+      ],
+      "general_level": "Specialist / Senior Generalist",
+      "description": "Capable of independently completing domain-related work, identifying issues and handling routine escalations"
+    },
+    {
+      "tag_group": "tier",
+      "tag_value": "tier 4",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx table:3,row:5"
+        }
+      ],
+      "general_level": "Generalist",
+      "description": "Capable of completing standardized tasks based on SOPs, guidelines and examples"
+    }
+  ],
+  "issues": [
+    {
+      "id": "PC_SELECTION_CONFLICT",
+      "severity": "error",
+      "detail": "Taxonomy §1.2总览表规定Project Category为Single-select by default，§2.3规定Multi-select。不自行选择公司政策，selection_type=null；交Admin确认后才能作为可靠选择规则使用。",
+      "source_locations": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx table:1,row:4"
+        },
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:62"
+        }
+      ]
+    },
+    {
+      "id": "LANGUAGE_DUPLICATE_VALUES",
+      "severity": "warning",
+      "detail": "后附正式Language清单存在完全相同值重复：pashto原始出现2次；uzbek原始出现2次。快照仅按(tag_group, tag_value)去重，保留全部正式清单sources；未计入前面的Naming Examples。",
+      "source_locations": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:484"
+        },
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:561"
+        },
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:509"
+        },
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:562"
+        }
+      ]
+    },
+    {
+      "id": "LANGUAGE_POSSIBLE_EQUIVALENCE",
+      "severity": "warning",
+      "detail": "farsi与persian可能等价，但正式文档同时列出；两者原样保留，交Admin核验，不自动合并。不把chinese/mandarin/cantonese或其他相关但不同的语言擅自合并；可能等价判断并非已经确认的库变更。",
+      "source_locations": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:454"
+        },
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:485"
+        },
+        {
+          "file": "GlobalTalentTagManagementSpecificationv1.0.docx",
+          "locator": "docx paragraph:22"
+        },
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:59"
+        }
+      ]
+    },
+    {
+      "id": "CROSS_GROUP_SAME_VALUE",
+      "severity": "info",
+      "detail": "跨组同值：model fine-tuning出现在project category和knowledge domain。Tag Groups独立；身份键为(tag_group, tag_value)，不做全局去重，不视为组内重复。",
+      "source_locations": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:107"
+        },
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:138"
+        }
+      ]
+    },
+    {
+      "id": "ACTIVE_AND_CURRENT_UNKNOWN",
+      "severity": "error",
+      "detail": "上传文档标示1.0只证明文档版本，不证明其为当前批准库。管理规范要求Active/Inactive状态及唯一current approved version，但未给逐标签状态或当前批准版本验证证据。current_approved_version_verified=false、active_status_verified=false；全部标签status=null，不转换为Active。",
+      "source_locations": [
+        {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:3"
+        },
+        {
+          "file": "GlobalTalentTagManagementSpecificationv1.0.docx",
+          "locator": "docx paragraph:2"
+        },
+        {
+          "file": "GlobalTalentTagManagementSpecificationv1.0.docx",
+          "locator": "docx table:2,row:2"
+        },
+        {
+          "file": "GlobalTalentTagManagementSpecificationv1.0.docx",
+          "locator": "docx table:2,row:3"
+        },
+        {
+          "file": "GlobalTalentTagManagementSpecificationv1.0.docx",
+          "locator": "docx table:3,row:6"
+        },
+        {
+          "file": "GlobalTalentTagManagementSpecificationv1.0.docx",
+          "locator": "docx paragraph:59"
+        },
+        {
+          "file": "GlobalTalentTagManagementSpecificationv1.0.docx",
+          "locator": "docx paragraph:62"
+        }
+      ]
+    },
+    {
+      "id": "MOKA_IDS_MISSING",
+      "severity": "error",
+      "detail": "两份上传文档未提供逐标签Moka ID或映射表，管理规范Export字段也没有Moka ID。不能以文本、序号或自造ID冒充Moka ID；moka_id_mapping_verified=false，全部moka_tag_id=null。",
+      "source_locations": [
+        {
+          "file": "GlobalTalentTagManagementSpecificationv1.0.docx",
+          "locator": "docx paragraph:31"
+        },
+        {
+          "file": "GlobalTalentTagManagementSpecificationv1.0.docx",
+          "locator": "docx paragraph:32"
+        },
+        {
+          "file": "GlobalTalentTagManagementSpecificationv1.0.docx",
+          "locator": "docx paragraph:33"
+        },
+        {
+          "file": "GlobalTalentTagManagementSpecificationv1.0.docx",
+          "locator": "docx paragraph:34"
+        },
+        {
+          "file": "GlobalTalentTagManagementSpecificationv1.0.docx",
+          "locator": "docx paragraph:35"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "raw_by_group": {
+      "country": 224,
+      "language": 131,
+      "project category": 39,
+      "knowledge domain": 21,
+      "tier": 4
+    },
+    "unique_by_group": {
+      "country": 224,
+      "language": 129,
+      "project category": 39,
+      "knowledge domain": 21,
+      "tier": 4
+    },
+    "total_unique": 417
+  },
+  "extraction_metadata": {
+    "method": "python_standard_library_docx_zip_xml_bounded_bullet_lists_and_tier_table",
+    "numbering": "1-based; paragraphs are direct w:body/w:p including blanks, excluding table-cell paragraphs; tables are direct w:body/w:tbl; rows include header",
+    "source_structure": [
+      {
+        "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+        "body_paragraph_count": 581,
+        "body_table_count": 5
+      },
+      {
+        "file": "GlobalTalentTagManagementSpecificationv1.0.docx",
+        "body_paragraph_count": 67,
+        "body_table_count": 3
+      }
+    ],
+    "library_scope": {
+      "country": {
+        "start": {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:199"
+        },
+        "end_exclusive": {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:432"
+        },
+        "excluded_non_tag_paragraphs": [
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:200"
+            },
+            "reason": "navigation_heading",
+            "text": "Asia-Pacific"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:247"
+            },
+            "reason": "navigation_heading",
+            "text": "Europe"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:297"
+            },
+            "reason": "navigation_heading",
+            "text": "Middle East"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:313"
+            },
+            "reason": "navigation_heading",
+            "text": "Africa"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:368"
+            },
+            "reason": "navigation_heading",
+            "text": "North America & Caribbean"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:392"
+            },
+            "reason": "navigation_heading",
+            "text": "South America"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:405"
+            },
+            "reason": "navigation_heading",
+            "text": "Additional Territories and Markets"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:431"
+            },
+            "reason": "empty_paragraph",
+            "text": ""
+          }
+        ]
+      },
+      "language": {
+        "start": {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:435"
+        },
+        "end_exclusive": {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:575"
+        },
+        "excluded_non_tag_paragraphs": [
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:436"
+            },
+            "reason": "navigation_heading",
+            "text": "Major Global Languages"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:511"
+            },
+            "reason": "navigation_heading",
+            "text": "Additional European Languages"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:523"
+            },
+            "reason": "navigation_heading",
+            "text": "Additional South Asian Languages"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:533"
+            },
+            "reason": "navigation_heading",
+            "text": "Additional Southeast Asian Languages"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:540"
+            },
+            "reason": "navigation_heading",
+            "text": "Additional African Languages"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:558"
+            },
+            "reason": "navigation_heading",
+            "text": "Additional Middle Eastern and Central Asian Languages"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:564"
+            },
+            "reason": "navigation_heading",
+            "text": "Additional Languages for Global Projects"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:574"
+            },
+            "reason": "empty_paragraph",
+            "text": ""
+          }
+        ]
+      },
+      "project category": {
+        "start": {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:61"
+        },
+        "end_exclusive": {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:121"
+        },
+        "excluded_non_tag_paragraphs": [
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:62"
+            },
+            "reason": "group_metadata_or_explanatory_prose",
+            "text": "Tag Group: project category\nSelection Type: Multi-select\nRequirement: Required"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:63"
+            },
+            "reason": "group_metadata_or_explanatory_prose",
+            "text": "Project Category represents the type of business work or project activity that a candidate can support."
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:64"
+            },
+            "reason": "group_metadata_or_explanatory_prose",
+            "text": "The following categories constitute the approved Project Category Tag Library for v1.0."
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:65"
+            },
+            "reason": "navigation_heading",
+            "text": "A. Data Annotation"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:71"
+            },
+            "reason": "navigation_heading",
+            "text": "B. Content Moderation"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:76"
+            },
+            "reason": "group_metadata_or_explanatory_prose",
+            "text": "E-commerce Moderation is included within Content Moderation as a core business category."
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:77"
+            },
+            "reason": "navigation_heading",
+            "text": "C. Data Collection"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:80"
+            },
+            "reason": "group_metadata_or_explanatory_prose",
+            "text": "This category is intentionally limited to Audio and Speech Data Collection."
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:81"
+            },
+            "reason": "navigation_heading",
+            "text": "D. AI-related Audio"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:84"
+            },
+            "reason": "group_metadata_or_explanatory_prose",
+            "text": "This category covers AI-related speech and audio work, including ASR and TTS."
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:85"
+            },
+            "reason": "navigation_heading",
+            "text": "E. LLM Evaluation"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:94"
+            },
+            "reason": "navigation_heading",
+            "text": "F. Agent Evaluation"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:103"
+            },
+            "reason": "navigation_heading",
+            "text": "G. Prompt & Model Development"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:109"
+            },
+            "reason": "navigation_heading",
+            "text": "H. Customer Service"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:111"
+            },
+            "reason": "group_metadata_or_explanatory_prose",
+            "text": "This category covers traditional BPO Customer Service business activities. Further subcategories are not required in v1.0."
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:112"
+            },
+            "reason": "navigation_heading",
+            "text": "I. Robotic & Embodied AI"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:116"
+            },
+            "reason": "group_metadata_or_explanatory_prose",
+            "text": "This category covers talent and project activities related to Robotic and Embodied AI."
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:117"
+            },
+            "reason": "group_metadata_or_explanatory_prose",
+            "text": "Egocentric Video Collection and Robotic Data Collection are intentionally classified under this category rather than the general Data Collection category."
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:118"
+            },
+            "reason": "navigation_heading",
+            "text": "J. Location Based Service"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:120"
+            },
+            "reason": "group_metadata_or_explanatory_prose",
+            "text": "This category represents the company's Location Based Service business line and is retained regardless of current talent pool coverage."
+          }
+        ]
+      },
+      "knowledge domain": {
+        "start": {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:121"
+        },
+        "end_exclusive": {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:151"
+        },
+        "excluded_non_tag_paragraphs": [
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:122"
+            },
+            "reason": "group_metadata_or_explanatory_prose",
+            "text": "Tag Group: knowledge domain\nSelection Type: Multi-select\nRequirement: Optional"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:123"
+            },
+            "reason": "group_metadata_or_explanatory_prose",
+            "text": "Knowledge Domain represents a candidate's professional knowledge, subject-matter expertise or relevant technical knowledge."
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:124"
+            },
+            "reason": "group_metadata_or_explanatory_prose",
+            "text": "The following section headings are organizational groupings only. The actual Tag Library remains flat."
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:125"
+            },
+            "reason": "navigation_heading",
+            "text": "A. Professional Domains"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:131"
+            },
+            "reason": "navigation_heading",
+            "text": "B. Coding"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:136"
+            },
+            "reason": "navigation_heading",
+            "text": "C. AI Technology"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:141"
+            },
+            "reason": "navigation_heading",
+            "text": "D. Science"
+          },
+          {
+            "source": {
+              "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+              "locator": "docx paragraph:146"
+            },
+            "reason": "navigation_heading",
+            "text": "E. Language"
+          }
+        ]
+      },
+      "tier": {
+        "start": {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:151"
+        },
+        "end_exclusive": {
+          "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+          "locator": "docx paragraph:157"
+        },
+        "table": 3,
+        "data_rows": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "group_metadata_sources": {
+      "country": [
+        {
+          "selection_type": "single",
+          "requirement": "required",
+          "source": {
+            "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+            "locator": "docx paragraph:23"
+          }
+        },
+        {
+          "selection_type": "single",
+          "requirement": "required",
+          "source": {
+            "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+            "locator": "docx paragraph:197"
+          }
+        }
+      ],
+      "language": [
+        {
+          "selection_type": "multi",
+          "requirement": "required",
+          "source": {
+            "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+            "locator": "docx paragraph:38"
+          }
+        },
+        {
+          "selection_type": "multi",
+          "requirement": "required",
+          "source": {
+            "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+            "locator": "docx paragraph:433"
+          }
+        }
+      ],
+      "project category": [
+        {
+          "selection_type": "multi",
+          "requirement": "required",
+          "source": {
+            "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+            "locator": "docx paragraph:62"
+          }
+        }
+      ],
+      "knowledge domain": [
+        {
+          "selection_type": "multi",
+          "requirement": "optional",
+          "source": {
+            "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+            "locator": "docx paragraph:122"
+          }
+        }
+      ],
+      "tier": [
+        {
+          "selection_type": "single",
+          "requirement": "conditional",
+          "source": {
+            "file": "HQTATagTaxonomy_v1.0(包括TaxLibrary+TaggingPolicy).docx",
+            "locator": "docx paragraph:152"
+          }
+        }
+      ]
+    },
+    "checks": {
+      "raw_values_checked": 419,
+      "not_lowercase": 0,
+      "not_trimmed": 0,
+      "nonstandard_spacing": 0,
+      "within_group_duplicate_values": 2,
+      "within_group_duplicate_excess_entries": 2,
+      "cross_group_same_values": [
+        "model fine-tuning"
+      ]
+    }
+  },
+  "distribution_note": "用户提供的内部文档快照；仅知识与建议依据，未核验Current/Active或真实系统ID。"
+}

@@ -1,0 +1,31 @@
+{
+  "tag": {
+    "id": "TAG-DEMO",
+    "name": "Workflow Review Marker",
+    "group_id": "GROUP-MANUAL",
+    "group_name": "Manual Work Markers",
+    "active": false,
+    "verified": false,
+    "verification_reference": "fictional active library inspection",
+    "citations": [
+      {
+        "source_id": "LIBRARY",
+        "locator": "segment-one",
+        "excerpt": "TAG-DEMO Workflow Review Marker GROUP-MANUAL Manual Work Markers enabled."
+      }
+    ],
+    "active_status_verified": false,
+    "active_status_reference": "fictional status inspection",
+    "active_status_citations": [
+      {
+        "source_id": "LIBRARY",
+        "locator": "segment-one",
+        "excerpt": "TAG-DEMO Workflow Review Marker GROUP-MANUAL Manual Work Markers enabled."
+      }
+    ],
+    "job_marker_group_verified": false,
+    "job_marker_group_reference": "fictional observed marker group",
+    "distinct_from_taxonomy_project_category_verified": false,
+    "distinct_from_taxonomy_project_category_reference": "fictional group distinction review"
+  }
+}

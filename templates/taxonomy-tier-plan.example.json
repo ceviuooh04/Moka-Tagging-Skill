@@ -1,0 +1,77 @@
+{
+  "candidate": {
+    "moka_id": "DEMO-RECORD-1",
+    "match_status": "unverified",
+    "record_type": "candidate_profile"
+  },
+  "taxonomy_version": "1.1",
+  "changes": [
+    {
+      "system": "moka",
+      "record_id": "DEMO-RECORD-1",
+      "field": "candidate_custom_tags",
+      "operation": "add",
+      "tag_group": "tier",
+      "tag_value": "tier 3",
+      "remote_tag_id": null,
+      "evidence": [
+        {
+          "source_id": "DEMO-PROJECT-SOURCE-1",
+          "locator": "DEMO-ASSESSMENT",
+          "excerpt": "candidate_moka_id=DEMO-RECORD-1; project_id=DEMO-NEWER-PROJECT; assessment_status=completed; validity=valid; tier_value=tier 3; rubric_version=DEMO-RUBRIC-2; note=DEMO continuous evidence DEMO-UNCOVERED-FACT-tier"
+        }
+      ]
+    }
+  ],
+  "target_project_id": "DEMO-NEWER-PROJECT",
+  "tier_assessment": {
+    "status": "assessed",
+    "value": "tier 3",
+    "rubric_version": "DEMO-RUBRIC-2",
+    "dimension_evidence": {
+      "professional knowledge and expertise": [
+        {
+          "source_id": "DEMO-PROJECT-SOURCE-1",
+          "locator": "DEMO-ASSESSMENT",
+          "excerpt": "candidate_moka_id=DEMO-RECORD-1; project_id=DEMO-NEWER-PROJECT; assessment_status=completed; validity=valid; tier_value=tier 3; rubric_version=DEMO-RUBRIC-2; note=DEMO continuous evidence DEMO-UNCOVERED-FACT-tier"
+        }
+      ],
+      "relevant practical experience": [
+        {
+          "source_id": "DEMO-PROJECT-SOURCE-1",
+          "locator": "DEMO-ASSESSMENT",
+          "excerpt": "candidate_moka_id=DEMO-RECORD-1; project_id=DEMO-NEWER-PROJECT; assessment_status=completed; validity=valid; tier_value=tier 3; rubric_version=DEMO-RUBRIC-2; note=DEMO continuous evidence DEMO-UNCOVERED-FACT-tier"
+        }
+      ],
+      "task complexity": [
+        {
+          "source_id": "DEMO-PROJECT-SOURCE-1",
+          "locator": "DEMO-ASSESSMENT",
+          "excerpt": "candidate_moka_id=DEMO-RECORD-1; project_id=DEMO-NEWER-PROJECT; assessment_status=completed; validity=valid; tier_value=tier 3; rubric_version=DEMO-RUBRIC-2; note=DEMO continuous evidence DEMO-UNCOVERED-FACT-tier"
+        }
+      ],
+      "ability to work independently": [
+        {
+          "source_id": "DEMO-PROJECT-SOURCE-1",
+          "locator": "DEMO-ASSESSMENT",
+          "excerpt": "candidate_moka_id=DEMO-RECORD-1; project_id=DEMO-NEWER-PROJECT; assessment_status=completed; validity=valid; tier_value=tier 3; rubric_version=DEMO-RUBRIC-2; note=DEMO continuous evidence DEMO-UNCOVERED-FACT-tier"
+        }
+      ],
+      "professional judgment": [
+        {
+          "source_id": "DEMO-PROJECT-SOURCE-1",
+          "locator": "DEMO-ASSESSMENT",
+          "excerpt": "candidate_moka_id=DEMO-RECORD-1; project_id=DEMO-NEWER-PROJECT; assessment_status=completed; validity=valid; tier_value=tier 3; rubric_version=DEMO-RUBRIC-2; note=DEMO continuous evidence DEMO-UNCOVERED-FACT-tier"
+        }
+      ],
+      "responsibility for decisions and outcomes": [
+        {
+          "source_id": "DEMO-PROJECT-SOURCE-1",
+          "locator": "DEMO-ASSESSMENT",
+          "excerpt": "candidate_moka_id=DEMO-RECORD-1; project_id=DEMO-NEWER-PROJECT; assessment_status=completed; validity=valid; tier_value=tier 3; rubric_version=DEMO-RUBRIC-2; note=DEMO continuous evidence DEMO-UNCOVERED-FACT-tier"
+        }
+      ]
+    }
+  },
+  "_example_notice": "Fictional illustration only; all Tier write plans are blocked with TIER_PROJECT_CONTEXT_UNSUPPORTED. Tier assessments are independent per project or Target Profile; never select a cross-project maximum or automatically overwrite another assessment. No actual Moka storage behavior is asserted."
+}

@@ -1,0 +1,43 @@
+{
+  "candidate": {
+    "moka_id": "DEMO-RECORD",
+    "match_status": "unverified"
+  },
+  "allowed_record_ids": {
+    "moka": []
+  },
+  "allowed_fields": {
+    "moka": []
+  },
+  "allowed_operations": {
+    "moka": []
+  },
+  "current_tags": {
+    "moka": []
+  },
+  "current_tags_verified": false,
+  "current_tags_verification_reference": null,
+  "current_tag_groups_verified": false,
+  "current_tag_groups_verification_reference": null,
+  "project_category_selection_type": null,
+  "project_category_decision_reference": null,
+  "approved_rubric": null,
+  "sources": [
+    {
+      "source_id": "DEMO-SOURCE",
+      "system": "moka",
+      "record_id": "DEMO-RECORD",
+      "url": "https://example.invalid/DEMO-PAGE",
+      "captured_at": "DEMO-UNVERIFIED",
+      "segments": [
+        {
+          "locator": "DEMO-PARAGRAPH",
+          "text": "DEMO-UNMAPPED-LANGUAGE"
+        }
+      ]
+    }
+  ],
+  "snapshot_id": null,
+  "current_tags_snapshot_verified": false,
+  "current_tags_snapshot_verification_reference": null
+}

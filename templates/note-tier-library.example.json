@@ -1,0 +1,43 @@
+{
+  "_notice": "LEGACY FICTIONAL EXAMPLE ONLY: Tier remains a field, but library status and IDs alone do not establish project-specific association or storage isolation. The legacy gate always blocks.",
+  "taxonomy_version": "1.1",
+  "current_approved_version_verified": false,
+  "approval_reference": "fictional organizational approval",
+  "current_version_verification_reference": "fictional active version",
+  "active_status_verified": false,
+  "active_status_verification_reference": "fictional active checks",
+  "moka_id_mapping_verified": false,
+  "moka_id_mapping_reference": "fictional tier id mappings",
+  "tier_library_complete_verified": false,
+  "tier_library_complete_verification_reference": "fictional full tier library",
+  "tags": [
+    {
+      "tag_group": "tier",
+      "tag_value": "tier 1",
+      "status": "Active",
+      "moka_tag_id": "TIER-ID-1",
+      "moka_group_id": "GROUP-TIER"
+    },
+    {
+      "tag_group": "tier",
+      "tag_value": "tier 2",
+      "status": "Active",
+      "moka_tag_id": "TIER-ID-2",
+      "moka_group_id": "GROUP-TIER"
+    },
+    {
+      "tag_group": "tier",
+      "tag_value": "tier 3",
+      "status": "Active",
+      "moka_tag_id": "TIER-ID-3",
+      "moka_group_id": "GROUP-TIER"
+    },
+    {
+      "tag_group": "tier",
+      "tag_value": "tier 4",
+      "status": "Active",
+      "moka_tag_id": "TIER-ID-4",
+      "moka_group_id": "GROUP-TIER"
+    }
+  ]
+}

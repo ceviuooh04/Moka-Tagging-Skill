@@ -1,0 +1,47 @@
+{
+  "target": {
+    "job_id": "JOB-DEMO",
+    "requisition_id": "REQ-DEMO",
+    "application_id": "APP-DEMO",
+    "candidate_id": "CAND-DEMO",
+    "edit_target": {
+      "type": "candidate",
+      "id": "CAND-DEMO"
+    }
+  },
+  "tag": {
+    "id": "TAG-DEMO",
+    "name": "Workflow Review Marker",
+    "group_id": "GROUP-MANUAL",
+    "group_name": "Manual Work Markers"
+  },
+  "action": "add",
+  "after_tags": [
+    {
+      "id": "TAG-OLD",
+      "name": "Existing Item",
+      "group_id": "GROUP-OTHER",
+      "group_name": "Other Group"
+    },
+    {
+      "id": "TAG-DEMO",
+      "name": "Workflow Review Marker",
+      "group_id": "GROUP-MANUAL",
+      "group_name": "Manual Work Markers"
+    }
+  ],
+  "evidence": [
+    {
+      "source_id": "WORK",
+      "locator": "segment-one",
+      "excerpt": "Review automated workflow runs, diagnose failure modes, and report outcomes."
+    }
+  ],
+  "semantic_review": {
+    "decision": "uncertain",
+    "reasoning": "The cited duties concern reviewing workflow runs and outcomes.",
+    "subject": "job_work_not_candidate_capability",
+    "work_content_verified": false,
+    "verification_reference": "fictional reviewed work section"
+  }
+}

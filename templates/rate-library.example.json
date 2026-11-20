@@ -1,0 +1,18 @@
+{
+  "taxonomy_version": "1.1",
+  "current_approved_version_verified": false,
+  "active_status_verified": false,
+  "moka_id_mapping_verified": false,
+  "approval_reference": null,
+  "current_version_verification_reference": null,
+  "active_status_verification_reference": null,
+  "moka_id_mapping_reference": null,
+  "tags": [
+    {"tag_group":"rate","tag_value":"0 USD ≤ Expected Rate ≤ 10 USD","status":"Unverified","moka_tag_id":null,"currency":"USD","period":"hour","lower":"0","upper":"10","lower_inclusive":true,"upper_inclusive":true},
+    {"tag_group":"rate","tag_value":"10 USD < Expected Rate ≤ 20 USD","status":"Unverified","moka_tag_id":null,"currency":"USD","period":"hour","lower":"10","upper":"20","lower_inclusive":false,"upper_inclusive":true},
+    {"tag_group":"rate","tag_value":"20 USD < Expected Rate ≤ 30 USD","status":"Unverified","moka_tag_id":null,"currency":"USD","period":"hour","lower":"20","upper":"30","lower_inclusive":false,"upper_inclusive":true},
+    {"tag_group":"rate","tag_value":"30 USD < Expected Rate ≤ 60 USD","status":"Unverified","moka_tag_id":null,"currency":"USD","period":"hour","lower":"30","upper":"60","lower_inclusive":false,"upper_inclusive":true},
+    {"tag_group":"rate","tag_value":"60 USD < Expected Rate ≤ 100 USD","status":"Unverified","moka_tag_id":null,"currency":"USD","period":"hour","lower":"60","upper":"100","lower_inclusive":false,"upper_inclusive":true},
+    {"tag_group":"rate","tag_value":"rate not included","status":"Unverified","moka_tag_id":null}
+  ]
+}

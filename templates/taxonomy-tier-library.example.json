@@ -1,0 +1,90 @@
+{
+  "taxonomy_version": "1.1",
+  "current_approved_version_verified": false,
+  "active_status_verified": false,
+  "moka_id_mapping_verified": false,
+  "approval_reference": "DEMO-APPROVAL-REF",
+  "current_version_verification_reference": "DEMO-CURRENT-REF",
+  "active_status_verification_reference": "DEMO-ACTIVE-REF",
+  "moka_id_mapping_reference": "DEMO-MAPPING-REF",
+  "tags": [
+    {
+      "tag_group": "language",
+      "tag_value": "english",
+      "status": "Unverified",
+      "moka_tag_id": null
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "spanish",
+      "status": "Unverified",
+      "moka_tag_id": null
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "japan",
+      "status": "Unverified",
+      "moka_tag_id": null
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "singapore",
+      "status": "Unverified",
+      "moka_tag_id": null
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "translation",
+      "status": "Unverified",
+      "moka_tag_id": null
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "annotation",
+      "status": "Unverified",
+      "moka_tag_id": null
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "biology",
+      "status": "Unverified",
+      "moka_tag_id": null
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "chemistry",
+      "status": "Unverified",
+      "moka_tag_id": null
+    },
+    {
+      "tag_group": "tier",
+      "tag_value": "tier 3",
+      "status": "Unverified",
+      "moka_tag_id": null
+    },
+    {
+      "tag_group": "tier",
+      "tag_value": "tier 4",
+      "status": "Unverified",
+      "moka_tag_id": null
+    },
+    {
+      "tag_group": "tier",
+      "tag_value": "tier 1",
+      "status": "Unverified",
+      "moka_tag_id": null
+    },
+    {
+      "tag_group": "tier",
+      "tag_value": "tier 2",
+      "status": "Unverified",
+      "moka_tag_id": null
+    },
+    {
+      "tag_group": "tier",
+      "tag_value": "tier not included",
+      "status": "Unverified",
+      "moka_tag_id": null
+    }
+  ]
+}

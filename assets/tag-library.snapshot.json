@@ -1,0 +1,5174 @@
+{
+  "snapshot_version": "1.1-document-snapshot",
+  "taxonomy_version": "1.1",
+  "management_spec_version": "1.0",
+  "basis": "Revised v1.1 reading draft; pending Admin approval and Moka publication. Not an approved live Moka library.",
+  "current_approved_version_verified": false,
+  "active_status_verified": false,
+  "moka_id_mapping_verified": false,
+  "source_documents": [
+    {
+      "file": "Global_Talent_Taxonomy_v1.1.docx",
+      "sha256": "6c476036a29a14ea72f61d6e336050859ae33950f5b12ad4fcda3592c456732a",
+      "role": "current_revised_reading_draft_pending_approval"
+    },
+    {
+      "file": "Global_Talent_Taxonomy_v1.1_旧版_历史.docx",
+      "sha256": "9ac94ab7c34302a0049e4a8223f4c102d09293ce058182b18cd51eacfe7957b3",
+      "role": "historical_pre_revision_document_not_current_policy"
+    },
+    {
+      "file": "GlobalTalentTagManagementSpecificationv1.0.docx",
+      "sha256": "e661ffe97fbc43a25ede8c6dd7a9bf645ee610a9dfe532577c1ea85b6c0b8ec6"
+    }
+  ],
+  "tag_groups": {
+    "country": {
+      "selection_type": "single",
+      "requirement": "required"
+    },
+    "language": {
+      "selection_type": "multi",
+      "requirement": "required"
+    },
+    "project category": {
+      "selection_type": "multi",
+      "requirement": "required"
+    },
+    "knowledge domain": {
+      "selection_type": "multi",
+      "requirement": "optional"
+    },
+    "tier": {
+      "selection_type": "single",
+      "requirement": "conditional",
+      "selection_scope": "single_select_per_project_and_target_profile_context"
+    },
+    "rate": {
+      "selection_type": "single",
+      "requirement": "conditional",
+      "unit": "USD per hour",
+      "system_applicability": {
+        "ATS Talent Pool": true,
+        "Benchmark": false
+      }
+    }
+  },
+  "tags": [
+    {
+      "tag_group": "country",
+      "tag_value": "afghanistan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:226"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "australia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:227"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "bangladesh",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:228"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "bhutan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:229"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "brunei",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:230"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "cambodia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:231"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "china",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:232"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "fiji",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:233"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "hong kong",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:234"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "india",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:235"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "indonesia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:236"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "japan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:237"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "kazakhstan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:238"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "kiribati",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:239"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "kyrgyzstan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:240"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "laos",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:241"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "macau",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:242"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "malaysia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:243"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "maldives",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:244"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "marshall islands",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:245"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "micronesia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:246"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "mongolia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:247"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "myanmar",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:248"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "nauru",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:249"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "nepal",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:250"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "new zealand",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:251"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "north korea",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:252"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "pakistan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:253"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "palau",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:254"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "papua new guinea",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:255"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "philippines",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:256"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "samoa",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:257"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "singapore",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:258"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "solomon islands",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:259"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "south korea",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:260"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "sri lanka",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:261"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "taiwan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:262"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "tajikistan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:263"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "thailand",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:264"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "timor-leste",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:265"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "tonga",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:266"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "turkmenistan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:267"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "tuvalu",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:268"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "uzbekistan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:269"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "vanuatu",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:270"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "vietnam",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:271"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "albania",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:273"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "andorra",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:274"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "armenia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:275"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "austria",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:276"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "azerbaijan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:277"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "belarus",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:278"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "belgium",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:279"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "bosnia and herzegovina",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:280"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "bulgaria",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:281"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "croatia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:282"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "cyprus",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:283"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "czechia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:284"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "denmark",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:285"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "estonia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:286"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "finland",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:287"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "france",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:288"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "georgia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:289"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "germany",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:290"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "greece",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:291"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "hungary",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:292"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "iceland",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:293"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "ireland",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:294"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "italy",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:295"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "kosovo",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:296"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "latvia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:297"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "liechtenstein",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:298"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "lithuania",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:299"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "luxembourg",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:300"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "malta",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:301"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "moldova",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:302"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "monaco",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:303"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "montenegro",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:304"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "netherlands",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:305"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "north macedonia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:306"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "norway",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:307"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "poland",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:308"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "portugal",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:309"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "romania",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:310"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "russia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:311"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "san marino",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:312"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "serbia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:313"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "slovakia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:314"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "slovenia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:315"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "spain",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:316"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "sweden",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:317"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "switzerland",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:318"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "ukraine",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:319"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "united kingdom",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:320"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "vatican city",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:321"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "bahrain",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:323"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "iran",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:324"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "iraq",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:325"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "israel",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:326"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "jordan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:327"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "kuwait",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:328"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "lebanon",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:329"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "oman",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:330"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "palestine",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:331"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "qatar",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:332"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "saudi arabia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:333"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "syria",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:334"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "turkey",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:335"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "united arab emirates",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:336"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "yemen",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:337"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "algeria",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:339"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "angola",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:340"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "benin",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:341"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "botswana",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:342"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "burkina faso",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:343"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "burundi",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:344"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "cabo verde",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:345"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "cameroon",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:346"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "central african republic",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:347"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "chad",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:348"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "comoros",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:349"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "democratic republic of the congo",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:350"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "republic of the congo",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:351"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "cote d'ivoire",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:352"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "djibouti",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:353"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "egypt",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:354"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "equatorial guinea",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:355"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "eritrea",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:356"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "eswatini",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:357"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "ethiopia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:358"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "gabon",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:359"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "gambia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:360"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "ghana",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:361"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "guinea",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:362"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "guinea-bissau",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:363"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "kenya",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:364"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "lesotho",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:365"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "liberia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:366"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "libya",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:367"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "madagascar",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:368"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "malawi",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:369"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "mali",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:370"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "mauritania",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:371"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "mauritius",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:372"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "morocco",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:373"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "mozambique",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:374"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "namibia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:375"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "niger",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:376"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "nigeria",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:377"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "rwanda",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:378"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "sao tome and principe",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:379"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "senegal",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:380"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "seychelles",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:381"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "sierra leone",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:382"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "somalia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:383"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "south africa",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:384"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "south sudan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:385"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "sudan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:386"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "tanzania",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:387"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "togo",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:388"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "tunisia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:389"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "uganda",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:390"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "zambia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:391"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "zimbabwe",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:392"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "antigua and barbuda",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:394"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "bahamas",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:395"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "barbados",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:396"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "belize",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:397"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "canada",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:398"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "costa rica",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:399"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "cuba",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:400"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "dominica",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:401"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "dominican republic",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:402"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "el salvador",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:403"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "grenada",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:404"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "guatemala",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:405"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "haiti",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:406"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "honduras",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:407"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "jamaica",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:408"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "mexico",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:409"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "nicaragua",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:410"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "panama",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:411"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "saint kitts and nevis",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:412"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "saint lucia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:413"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "saint vincent and the grenadines",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:414"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "trinidad and tobago",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:415"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "united states",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:416"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "argentina",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:418"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "bolivia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:419"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "brazil",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:420"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "chile",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:421"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "colombia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:422"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "ecuador",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:423"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "guyana",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:424"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "paraguay",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:425"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "peru",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:426"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "suriname",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:427"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "uruguay",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:428"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "venezuela",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:429"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "american samoa",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:431"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "anguilla",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:432"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "aruba",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:433"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "bermuda",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:434"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "british virgin islands",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:435"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "cayman islands",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:436"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "curacao",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:437"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "faroe islands",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:438"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "french guiana",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:439"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "french polynesia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:440"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "gibraltar",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:441"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "greenland",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:442"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "guadeloupe",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:443"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "guam",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:444"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "jersey",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:445"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "isle of man",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:446"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "martinique",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:447"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "mayotte",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:448"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "montserrat",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:449"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "new caledonia",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:450"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "puerto rico",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:451"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "reunion",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:452"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "sint maarten",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:453"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "turks and caicos islands",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:454"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "u.s. virgin islands",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:455"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "afrikaans",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:464"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "albanian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:465"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "arabic",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:60"
+        },
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:466"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "armenian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:467"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "azerbaijani",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:468"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "bengali",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:469"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "bosnian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:470"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "bulgarian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:471"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "burmese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:472"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "cantonese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:473"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "chinese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:474"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "croatian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:475"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "czech",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:476"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "danish",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:477"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "dutch",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:478"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "english",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:49"
+        },
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:479"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "estonian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:480"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "finnish",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:481"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "french",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:50"
+        },
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:482"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "georgian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:483"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "german",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:51"
+        },
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:484"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "greek",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:485"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "gujarati",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:486"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "hebrew",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:487"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "hindi",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:488"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "hungarian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:489"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "icelandic",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:490"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "indonesian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:54"
+        },
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:491"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "irish",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:492"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "italian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:493"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "japanese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:52"
+        },
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:494"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "kannada",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:495"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "kazakh",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:496"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "khmer",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:497"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "korean",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:53"
+        },
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:498"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "kyrgyz",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:499"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "lao",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:500"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "latvian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:501"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "lithuanian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:502"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "malay",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:55"
+        },
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:503"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "malayalam",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:504"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "mandarin",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:505"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "marathi",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:506"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "mongolian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:507"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "nepali",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:508"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "norwegian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:509"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "pashto",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:510"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "persian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:511"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "polish",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:512"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "portuguese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:59"
+        },
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:514"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "punjabi",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:515"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "romanian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:516"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "russian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:517"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "serbian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:518"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "sinhala",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:519"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "slovak",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:520"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "slovenian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:521"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "somali",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:522"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "spanish",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:58"
+        },
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:523"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "swahili",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:524"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "swedish",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:525"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "tagalog",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:526"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "tajik",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:527"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "tamil",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:528"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "telugu",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:529"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "thai",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:56"
+        },
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:530"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "tibetan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:531"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "turkish",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:532"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "turkmen",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:533"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "ukrainian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:534"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "urdu",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:535"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "uzbek",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:536"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "vietnamese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:57"
+        },
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:537"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "basque",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:539"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "belarusian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:540"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "catalan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:541"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "corsican",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:542"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "galician",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:543"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "luxembourgish",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:544"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "macedonian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:545"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "maltese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:546"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "occitan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:547"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "scottish gaelic",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:548"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "welsh",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:549"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "assamese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:551"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "bhojpuri",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:552"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "dhivehi",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:553"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "dogri",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:554"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "konkani",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:555"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "maithili",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:556"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "manipuri",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:557"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "santali",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:558"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "sindhi",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:559"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "cebuano",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:561"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "hiligaynon",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:562"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "ilocano",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:563"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "javanese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:564"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "madurese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:565"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "sundanese",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:566"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "akan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:568"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "amharic",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:569"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "bambara",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:570"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "berber",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:571"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "hausa",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:572"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "igbo",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:573"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "kinyarwanda",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:574"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "lingala",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:575"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "luganda",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:576"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "oromo",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:577"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "shona",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:578"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "tigrinya",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:579"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "tswana",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:580"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "wolof",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:581"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "xhosa",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:582"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "yoruba",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:583"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "zulu",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:584"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "kurdish",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:586"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "sorani",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:587"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "dari",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:588"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "haitian creole",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:590"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "jamaican patois",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:591"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "maori",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:592"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "quechua",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:593"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "guarani",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:594"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "greenlandic",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:595"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "samoan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:596"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "tongan",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:597"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "fijian",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:598"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "image annotation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:70"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "video annotation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:71"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "audio annotation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:72"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "music annotation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:73"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "text annotation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:74"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "image moderation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:76"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "video moderation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:77"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "text moderation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:78"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "e-commerce moderation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:79"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "audio data collection",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:82"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "speech data collection",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:83"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "speech recognition (asr)",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:86"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "speech synthesis (tts)",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:87"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "customer service",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:105"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "3d modeling",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:108"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "egocentric video collection",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:109"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "robotic data collection",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:110"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "location based service",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:114"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "medical & healthcare",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:123"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "finance & accounting",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:124"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "law",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:125"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "engineering",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:126"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "business & management",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:127"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "coding",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:129"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "code generation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:130"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "code review",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:131"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "code debugging",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:132"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "large language models",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:134"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "model fine-tuning",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:135"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "rag development",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:136"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "ai agent development",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:137"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "mathematics",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:139"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "physics",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:140"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "biology",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:141"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "chemistry",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:142"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "linguistics",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:144"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "translation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:145"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "grammar",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:146"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "localization",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:147"
+        }
+      ]
+    },
+    {
+      "tag_group": "tier",
+      "tag_value": "tier 1",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx table:3,row:2,cell:1"
+        }
+      ]
+    },
+    {
+      "tag_group": "tier",
+      "tag_value": "tier 2",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx table:3,row:3,cell:1"
+        }
+      ]
+    },
+    {
+      "tag_group": "tier",
+      "tag_value": "tier 3",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx table:3,row:4,cell:1"
+        }
+      ]
+    },
+    {
+      "tag_group": "tier",
+      "tag_value": "tier 4",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx table:3,row:5,cell:1"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "llm general response evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:90",
+          "match": "inline"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "llm safety evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:91",
+          "match": "inline"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "llm coding evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:92",
+          "match": "inline"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "llm preference evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:93",
+          "match": "inline"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "agent task completion evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:95",
+          "match": "inline"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "agent planning and reasoning evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:96",
+          "match": "inline"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "agent tool and interface evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:97",
+          "match": "inline"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "agent workflow and trajectory evaluation",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:98",
+          "match": "inline"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "prompt development",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:100",
+          "match": "inline"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "general ai training",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:101",
+          "match": "inline"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "model fine-tuning",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:102",
+          "match": "inline"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "agent training",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:103",
+          "match": "inline"
+        }
+      ]
+    },
+    {
+      "tag_group": "rate",
+      "tag_value": "0 USD ≤ Expected Rate ≤ 10 USD",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:164"
+        }
+      ]
+    },
+    {
+      "tag_group": "rate",
+      "tag_value": "10 USD < Expected Rate ≤ 20 USD",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:165"
+        }
+      ]
+    },
+    {
+      "tag_group": "rate",
+      "tag_value": "20 USD < Expected Rate ≤ 30 USD",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:166"
+        }
+      ]
+    },
+    {
+      "tag_group": "rate",
+      "tag_value": "30 USD < Expected Rate ≤ 60 USD",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:167"
+        }
+      ]
+    },
+    {
+      "tag_group": "rate",
+      "tag_value": "60 USD < Expected Rate ≤ 100 USD",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:168"
+        }
+      ]
+    },
+    {
+      "tag_group": "country",
+      "tag_value": "country not included",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:458"
+        }
+      ]
+    },
+    {
+      "tag_group": "language",
+      "tag_value": "language not included",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:601"
+        }
+      ]
+    },
+    {
+      "tag_group": "project category",
+      "tag_value": "project category not included",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:117"
+        }
+      ]
+    },
+    {
+      "tag_group": "knowledge domain",
+      "tag_value": "knowledge domain not included",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:149"
+        }
+      ]
+    },
+    {
+      "tag_group": "tier",
+      "tag_value": "tier not included",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:158"
+        }
+      ]
+    },
+    {
+      "tag_group": "rate",
+      "tag_value": "rate not included",
+      "status": null,
+      "moka_tag_id": null,
+      "sources": [
+        {
+          "file": "Global_Talent_Taxonomy_v1.1.docx",
+          "locator": "docx paragraph:170"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "country": 225,
+    "language": 129,
+    "project category": 31,
+    "knowledge domain": 22,
+    "tier": 5,
+    "rate": 6
+  },
+  "issues": [
+    {
+      "id": "DRAFT_NOT_CURRENT_VERIFIED",
+      "detail": "v1.1 is a proposed draft; current approved version and each Active status must be independently verified."
+    },
+    {
+      "id": "MOKA_ID_MAPPING_MISSING",
+      "detail": "All runtime Moka ID mappings must be independently verified."
+    },
+    {
+      "id": "FARSI_ALIAS_DRAFT_APPROVAL_PENDING",
+      "detail": "The revised draft specifies farsi as an alias of canonical persian; confirm current organizational approval and activation. Preserve historical farsi unless separate migration approved."
+    }
+  ],
+  "extraction_metadata": {
+    "method": "preserved v1.0 unique (group,value) pairs, replaced E–G from v1.1 draft, and matched each value to v1.1 document text",
+    "locators": "paragraphs/tables/rows/cells are 1-indexed; exact references preferred; inline match flagged",
+    "historic_reference": "assets/tag-library.v1.0.snapshot.json",
+    "source_update": "Current source is the revised reading draft, pending approval and Moka publication. Unchanged tag locations were realigned to equal original node text in the revised source; the pre-revision source is retained for historical review."
+  },
+  "distribution_note": "Unverified document snapshot for recommendations only; never use as an approved live library.",
+  "language_aliases": {
+    "farsi": {
+      "canonical": "persian",
+      "source": {
+        "file": "Global_Talent_Taxonomy_v1.1.docx",
+        "locator": "docx paragraph:513"
+      },
+      "historical_value_policy": "Preserve historical farsi; do not migrate without separate approval."
+    }
+  }
+}

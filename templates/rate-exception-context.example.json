@@ -1,0 +1,43 @@
+{
+  "candidate": {
+    "moka_id": "DEMO-APPLICATION",
+    "name": "DEMO PERSON",
+    "match_status": "unverified"
+  },
+  "allowed_record_ids": {
+    "moka": []
+  },
+  "allowed_fields": {
+    "moka": []
+  },
+  "allowed_operations": {
+    "moka": []
+  },
+  "current_tags": {
+    "moka": []
+  },
+  "current_tags_verified": false,
+  "current_tags_verification_reference": null,
+  "current_tag_groups_verified": false,
+  "current_tag_groups_verification_reference": null,
+  "rate_intervals_complete_verified": false,
+  "rate_intervals_verification_reference": null,
+  "sources": [
+    {
+      "source_id": "DEMO-SOURCE",
+      "system": "moka",
+      "record_id": "DEMO-APPLICATION",
+      "url": "https://example.invalid/candidates/application/DEMO-APPLICATION/info",
+      "captured_at": "DEMO-UNVERIFIED",
+      "segments": [
+        {
+          "locator": "profile-rate",
+          "text": "Expected hourly rate in USD\n125"
+        }
+      ]
+    }
+  ],
+  "snapshot_id": null,
+  "current_tags_snapshot_verified": false,
+  "current_tags_snapshot_verification_reference": null
+}
